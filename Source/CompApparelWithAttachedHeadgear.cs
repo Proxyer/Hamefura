@@ -39,7 +39,7 @@ namespace Hamefura
                     toggleAction = delegate
                     {
                         isHatOn = !isHatOn;
-                        Pawn.Drawer.renderer.graphics.ResolveApparelGraphics();
+                        Pawn.Drawer.renderer.SetAllGraphicsDirty();
                     },
                     turnOffSound = null,
                     turnOnSound = null
